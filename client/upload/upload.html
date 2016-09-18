@@ -1,0 +1,56 @@
+<head>
+    <title>GraphLint</title>
+    <link rel="icon" type="img/ico" href="https://avatars0.githubusercontent.com/u/186724?v=3" />
+</head>
+
+<template name="upload">
+    <div id="fullpage">
+        <div class="section">
+            <h2 name="mainTitle">GraphLint</h2>
+            <div class="wrapper">
+                <!-- <div class="file-upload"> -->
+                    <!-- <form method=POST enctype=multipart/form-data action="http://localhost:5000/upload"> -->
+                      <div class="file-upload">
+                      <input type=file name=doc.odt>
+                      <div class="uploadArrow">
+                          <i class="glyphicon glyphicon-cloud-upload"></i>
+                      </div>
+                      </div>
+                      <br>
+
+                    </div>
+                      <!-- </form> -->
+<!--
+            </div> -->
+        </div>
+        <p><a class = "submit" href="/results"><b>Submit</b></a></p>
+        <article>
+          <!-- <p><a class = "submit" href="/results"><b>Submit</b></a></p> -->
+            <!-- <button type="button" href="/results" class="btn btn-primary">Primary</button> -->
+                <br>
+                <p><em>GraphLint</em>  is a single-purpose application that takes bar graphs and tables saved in .odt files and lint tests them according to six professional graph presentation guidelines:</p>
+                <br>
+                <p><b>The 6 Rules</b></p>
+                <hr>
+                <p>1.) <b>Using proper labels</b> – Checks if axis labels are present for graphs, as well as a proper legend. Proper labels for graphs make it easier to read.</p>
+                <br>
+                <hr>
+                <p>2.) <b>Improving line usage</b> – Analyzes tables and suggest improvement on borders. It also analyzes graphs and improves on using grid lines.</p>
+                <br>
+                <hr>
+                <p>3.) <b>Proper spacing</b> – Analyzes tables and either automatically fixes or suggests changes to make tables better spaced.</p>
+                <br>
+                <hr>
+                <p>4.) <b>Sorting data</b> – Takes the data and suggests changes for the user to either sort the data numerically or alphabetically.</p>
+                <br>
+                <hr>
+                <p>5.) <b>Using contrast for emphasis</b> – Suggests to the user an option to emphasize certain parts of the graph with contrast of darkness and color.</p>
+                <br>
+                <hr>
+                <p>6.) <b>Numerical formatting</b> Formatting numbers in a certain way can obscure certain anomalies such as hiding big data points within smaller values on a table. GraphLint recognizes these formatting mistakes and makes suggestions for improvement.</p>
+                <br>
+                <hr>
+                <p> This project was made by <i>David Hashe, Kevin Hong, and Jeremy Leung,</i> three freshmen at <b>C</b>arnegie <b>M</b>ellon <b>U</b>niversity with a passion for programming one way or another. <b>15-112</b></p>
+        </article>
+    </div>
+</template>
